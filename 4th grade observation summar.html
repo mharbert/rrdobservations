@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4th Grade Observation Findings: Q1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1.25rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        .card-content {
+            padding: 1.5rem;
+        }
+        .card-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .card-content li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+         .card-content li:last-child {
+            margin-bottom: 0;
+        }
+        .list-icon {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-top: 0.125rem;
+        }
+        .glows-header { background-color: #ecfdf5; color: #065f46; }
+        .grows-header { background-color: #fffbeb; color: #b45309; }
+        .steps-header { background-color: #eff6ff; color: #1e40af; }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8">
+    <div class="max-w-7xl mx-auto">
+        <header class="text-center mb-8 md:mb-12">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-800">4th Grade Team: Observation Findings</h1>
+            <p class="mt-2 text-lg text-gray-600">Quarter 1 Summary & Proposed Next Steps</p>
+        </header>
+
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+            <!-- Glows Card -->
+            <div class="card">
+                <div class="card-header glows-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <h2 class="card-title">Glows: Areas of Strength</h2>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li>
+                            <svg class="list-icon text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Positive Environment</h3>
+                                <p class="text-gray-600 text-sm">Students are consistently respectful and on-task with technology, creating a positive and productive learning atmosphere.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg class="list-icon text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Lesson Design</h3>
+                                <p class="text-gray-600 text-sm">Evidence of student-friendly goals and planned scaffolds show intentional design to support diverse learners from the start.</p>
+                            </div>
+                        </li>
+                        <li>
+                           <svg class="list-icon text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Student Engagement</h3>
+                                <p class="text-gray-600 text-sm">Teachers are connecting learning to student interests and creating opportunities for collaboration, such as partner discussions.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grows Card -->
+            <div class="card">
+                <div class="card-header grows-header">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 14.95a1 1 0 001.414 1.414l.707-.707a1 1 0 00-1.414-1.414l-.707.707zM3 10a1 1 0 011-1h1a1 1 0 110 2H4a1 1 0 01-1-1zM10 18a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zM5.757 4.343a1 1 0 00-1.414 1.414l.707.707a1 1 0 001.414-1.414l-.707-.707zM14.95 5.05a1 1 0 00-1.414 1.414l.707.707a1 1 0 001.414-1.414l-.707-.707zM10 5a5 5 0 100 10 5 5 0 000-10z" />
+                    </svg>
+                    <h2 class="card-title">Grows: Opportunities for Growth</h2>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li>
+                            <svg class="list-icon text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Student Agency</h3>
+                                <p class="text-gray-600 text-sm">Increase student ownership of norms and provide meaningful choices in how they learn and demonstrate understanding.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg class="list-icon text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Technology Integration</h3>
+                                <p class="text-gray-600 text-sm">Shift from technology as a consumption tool (watching videos) to a creation and collaboration tool (analyzing data, creating content).</p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg class="list-icon text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Feedback & Revision</h3>
+                                <p class="text-gray-600 text-sm">Develop feedback that is specific and actionable, guiding students on *how* to revise and improve their work, beyond just correctness.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Next Steps Card -->
+            <div class="card">
+                <div class="card-header steps-header">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zM1 15a1 1 0 100 2h18a1 1 0 100-2H1z" />
+                    </svg>
+                    <h2 class="card-title">Next Steps: A Partnership for Access</h2>
+                </div>
+                <div class="card-content">
+                     <ul>
+                        <li>
+                            <svg class="list-icon text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Co-Planning & Co-Teaching</h3>
+                                <p class="text-gray-600 text-sm">Partner to design and model lessons that integrate technology for creation and collaboration, based on team goals.</p>
+                            </div>
+                        </li>
+                        <li>
+                           <svg class="list-icon text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Targeted Professional Learning</h3>
+                                <p class="text-gray-600 text-sm">Organize workshops on high-priority topics like offering student choice, fostering digital collaboration, and providing actionable feedback.</p>
+                            </div>
+                        </li>
+                        <li>
+                           <svg class="list-icon text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Focus on UDL</h3>
+                                <p class="text-gray-600 text-sm">Collaboratively apply the Universal Design for Learning framework to proactively remove barriers and increase access for all students.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
